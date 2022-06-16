@@ -8,11 +8,13 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
+~~~
 1.Import the necessary packages using import statement.
 2.Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
 3.Import KMeans and use for loop to cluster the data.
 4.Predict the cluster and plot data graphs.
 5.Print the outputs and end the program
+~~~
 ## Program:
 ~~~
 ```
@@ -57,28 +59,28 @@ plt.title("Customer Segments")
 ~~~
 
 ## Output:
-##DATA HEAD:
+## DATA HEAD:
 
 ![1](https://user-images.githubusercontent.com/93427183/173176309-ba7abc3f-1932-43c6-8976-28a4c571fed9.png)
 
 
-##DATA INFO:
+## DATA INFO:
 
 ![2](https://user-images.githubusercontent.com/93427183/173176312-2d7a8099-3648-439f-9efc-32893e1d0277.png)
 
-##NULL SUM:
+## isNULL SUM:
 
 
 ![3](https://user-images.githubusercontent.com/93427183/173176315-284518aa-6c2b-4ccf-b52c-8a7eb748d52d.png)
 
 
-##PLOT-ELBOW METHOS:
+## PLOT-ELBOW METHOS:
 
 
 
 ![4](https://user-images.githubusercontent.com/93427183/173176316-d30f3dfb-545f-4f08-a7b9-9701b29583eb.png)
 
-CLUSTER:
+## CLUSTER:
 
 
 ![5](https://user-images.githubusercontent.com/93427183/173176320-bd0f594c-0e37-4b39-8465-267b7d1dd18b.png)
